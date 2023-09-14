@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+nav {
+    width: 100%;
+    display: block;
+    margin: 0 auto 30px;
+    background: #998ed2;
+}
+
+body {
+    /*background: url("images/background1.png") no-repeat center center fixed;
+    linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)),
+    url(myBgImage.png);*/
+    background: linear-gradient(rgba(255,255,255,0.75), rgba(255, 255, 255, 0.75)), url("images/pattern-arrows-hex-turn.png");
+}
+
+footer {
+    background-color: #998ed2;
+    height: 100px;
+    bottom: 0;
+
+    /*
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 10; */
+
+    text-align: center;
+}
+
+.container {
+    margin: 10px;
+    padding: 14px;
+}
+
+.menu {
+    display: inline-block;
+    padding: 0 20px;
+    font-size: 22px;
+}
+
+.main-page {
+    font-size: 32px;
+}
+
+.ul-menu {
+    padding: 10px;
+}
+
+.authorization {
+    right: 0;
+}
+
+.image_section > img {
+    margin: 20px auto;
+    display: block;
+}
+
+table {
+    margin: auto;
+    font-size: 24px;
+    border: #5e4fa9 5px dashed;
+    padding: 10px 0;
+    color: #140658;
+}
+
+tr {
+    text-align: center;
+}
+
+tr > * {
+    padding: 0 30px;
+}
