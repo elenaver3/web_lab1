@@ -18,7 +18,32 @@
         </nav>
     </header>
     <main>
-        
+        <section class="request_section">
+            <form name="request">
+                <p class="head">ФИО</p>
+                <p><input type="text" name="fio"></p>
+                <p class="head">Email</p>
+                <p><input type="text" name="email"></p>
+                <p class="head">Откуда узнали о нас?</p>
+                <p><input type="radio" name="radio" value="Реклама в интернете">Реклама в интернете</p>
+                <p><input type="radio" name="radio" value="Совет друга">Совет друга</p>
+                <p><input type="radio" name="radio" value="Другое">Другое</p>
+                <p>
+                    <select name="type_request" class="text_block">
+                        <option disabled selected>Выберите тип обращения</option>
+                        <option value="1">Жалоба</option>
+                        <option value="2">Предложение</option>
+                    </select>
+                </p>
+                <textarea name="text_area" cols="30" rows="10"></textarea>
+                <p><input type="file" name="file"></p>
+                <p><input type="checkbox" name="" class="approval">Даю согласие на обработку персональных данных</p>
+                <p><input type="submit" name="submit" class="button"></p>
+            </form>
+        </section>
+        <section class="image_section">
+            <img src="images/cat_req.jpg" alt="Кот" width="700px">
+        </section>
     </main>
     <footer>
         <div class="container">

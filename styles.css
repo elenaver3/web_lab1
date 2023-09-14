@@ -4,7 +4,7 @@
     padding: 0;
     margin: 0;
     font-family: 'Oswald', sans-serif;
-
+    color: #2c13a8;
 }
 
 a {
@@ -69,17 +69,81 @@ footer {
 }
 
 table {
-    margin: auto;
+    margin: 40px auto;
     font-size: 24px;
     border: #5e4fa9 5px dashed;
     padding: 10px 0;
     color: #140658;
 }
 
-tr {
+tr, .authorization_section > * {
     text-align: center;
 }
 
-tr > * {
+tr, .authorization_section > * {
     padding: 0 30px;
+}
+
+.authorization_section {
+    height: 300px;
+    width: 300px;
+    margin: 40px auto;
+    font-size: 24px;
+    border: #5e4fa9 5px dashed;
+    padding: 10px 0;
+    color: #140658;
+}
+
+.button {
+    border: #5e4fa9 1px solid;
+    border-radius: 3px;
+    line-height: 2.5;
+    padding: 0 20px;
+    text-align: center;
+    margin: 30px;
+    font-size: 18px;   
+}
+
+.button:hover {
+    background-color: rgb(133, 120, 194);
+}
+
+.check {
+    text-align: center;
+    margin: 30px;   
+}
+
+input {
+    font-size: 18px; 
+}
+
+.text_input {
+    font-size: 20px; 
+}
+
+.request_section {
+    height: 700px;
+    width: 500px;
+    margin: 40px auto;
+    font-size: 22px;
+    border: #5e4fa9 5px dashed;
+    padding: 10px 0;
+    color: #140658;
+    text-align: center;
+}
+
+.approval {
+    font-size: 16px;
+}
+
+.radio {
+    text-align: left;
+}
+
+.head {
+    font-size: 26px;
+}
+
+.text_block {
+    margin: 20px 0;
 }
