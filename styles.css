@@ -84,6 +84,14 @@ tr, .authorization_section > * {
     padding: 0 30px;
 }
 
+th {
+    padding: 5px 10px;
+}
+
+td {
+    padding: 5px 10px;
+}
+
 .authorization_section {
     height: 300px;
     width: 300px;
