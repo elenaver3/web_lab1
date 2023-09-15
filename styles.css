@@ -74,6 +74,7 @@ table {
     border: #5e4fa9 5px dashed;
     padding: 10px 0;
     color: #140658;
+    
 }
 
 tr, .authorization_section > * {
@@ -86,10 +87,12 @@ tr, .authorization_section > * {
 
 th {
     padding: 5px 10px;
+    border: #5e4fa9 1px solid;
 }
 
 td {
     padding: 5px 10px;
+    border: #5e4fa9 1px solid;
 }
 
 .authorization_section {
